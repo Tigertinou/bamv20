@@ -1,0 +1,52 @@
+{
+  "name": "BusinessAM",
+  "displayName": "BusinessAM",
+  "version": "20.0.2",
+  "expo": {
+    "name": "BusinessAM",
+    "slug": "BAM",
+    "scheme": "bam",
+    "version": "20.0.2",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.v5.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#cc1e0d"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "be.businessam.app",
+      "buildNumber": "20.0.2"
+    },
+    "android": {
+      "package": "businessam.bam.v1",
+      "versionCode": "20.0.2",
+      "permissions": [],
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#cc1e0d"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "ccbf3e88-5a85-4a23-ad8f-c1f636f211cd"
+      }
+    }
+  },
+  "androidStatusBar": {
+    "backgroundColor": "#cc1e0d",
+    "style": "light",
+    "translucent": false
+  }
+}
